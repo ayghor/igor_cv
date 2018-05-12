@@ -1,307 +1,125 @@
-\documentclass[a4paper]{simplecv}
-\usepackage[utf8]{inputenc}
+\input{shared}
 \usepackage[brazilian]{babel}
-\usepackage[hidelinks]{hyperref}
-\usepackage{multicol}
+\title{Desenvolvedor Fullstack}
 
 \begin{document}
+\makecvtitle
 
-\leftheader{Avenida Central Bloco 1645\\
-Lote 10, ap 102\\
-Núcleo Bandeirante\\
-Brasília, DF\\
-71710-560 \\
-Brasil}
-
-\rightheader{\href{tel:+5561999894025}{+55 61 99989-4025}\\
-\href{mailto:rogi@skylittlesystem.org}{rogi@skylittlesystem.org}\\
-\url{https://github.com/ayghor}}
-
-\title{Igor de Sant'Ana Fontana}
-
-\maketitle
-
-Sou um programador autodidata e estudante de matemática que ama soluções
-elegantes para problemas reais. Programo em \emph{C} desde os 12 anos ($\approx
-17$ anos atrás) e tenho trabalhado com \emph{Ruby} e \emph{Rails} nos últimos 5
-anos.
-
-Acredito que tecnologia deve ser simples e útil. Gosto de trabalhar com
-\emph{Linux} e \emph{Software Livre} no geral. Também me interesso por
-\emph{Videogames}, \emph{Machine Learning}, ensinar e tocar violão.
+\section{Sumário}
+\cvitem{}{%
+	Sou um programador autodidata e estudante de matemática que ama
+	soluções elegantes para problemas reais. Uso \emph{Linux} e programo em
+	\emph{C} desde os 12 anos ($\approx 17$ anos atrás) e tenho trabalhado
+	com \emph{Ruby} e \emph{Rails} nos últimos 5 anos. Acredito que
+	tecnologia deve ser simples e útil. Me interesso por \emph{Software
+	Livre}, \emph{Videogames}, \emph{Machine Learning}, ensinar e tocar
+	violão.
+}
 
 \section{Experiência}
+\cventry{2017}{Desenvolvedor Backend}{Wololo}{Recife}{}{
+	Plataforma de publicidade e gestão de militantes.
+	\begin{itemize}
+		\item Desenvolvi uma API JSON rápida e leve
+%
+		\item Escrevi documentação detalhada para desenvolvedores
+			frontend
+%
+		\item Configurei servidores para serem rápidos e estáveis a
+			baixo custo
+	\end{itemize}
+}
 
-\begin{topic}
-\item[2017] Desenvolvedor Ruby Backend\\
-	{\em\small Wololo--We Convert}
+\cventry{2016--2017}{Desenvolvedor Fullstack}{Papo de Homem}{Remoto}{}{
+	Blog sobre masculinidade e assuntos relacionados.
+	\begin{itemize}
+		\item Corrigi grande quantidade de bugs
+%
+		\item Mantive o blog no ar 24h, resolvendo problemas
+			rapidamente
+%
+		\item Implementei SSL, melhorando a colocação em motores de
+			busca
+%
+		\item Implementei uma API JSON e notificações push, permitindo
+			a criação dos aplicativos mobile
+	\end{itemize}
+}
 
-	Encarregado de modelar e implementar o backend de uma plataforma de
-	publicidade e gestão de militantes. Trabalhei paralelamente com
-	desenvolvedores frontend e designers.
+\cventry{2013--2014}{Desenvolvedor Fullstack}{LambLamb}{Brasília}{}{
+	Impressora instantânea de fotos do Instagram para eventos.
+	\begin{itemize}
+		\item Melhorei a qualidade das impressões utilizando gráficos
+			vetorizados e filtros de redimensionamento adequados
+%
+		\item Criei editor WYSIWYG de templates de impressão, para
+			fácil personalização com marcas dos clientes e
+			metadados das mídias
+%
+		\item Operei e apresentei a LambLamb ao público durante
+			eventos
+	\end{itemize}
+}
 
-	Modelei o banco de dados e a lógica de negócios da aplicação de acordo
-	com esboços dos designers de produto. Implementei uma API JSON
-	utilizando a bibliotecas minimalistas para garantir a leveza e rapidez
-	do servidor. Escrevi documentação detalhada para os desenvolvedores
-	web, iOS e Android. Configurei servidores de teste e produção.
+\cventry{2011--2013}{Desenvolvedor Júnior}{Bebop}{Brasília}{}{
+	Soluções em robótica e computação física para o mercado de publicidade
+	e entretenimento.
+	\begin{itemize}
+		\item Auxiliei no desenvolvimento de instalações interativas
+			utilizando visão computacional e projeção mapeada
+%
+		\item Melhorei o desempenho, especialmente gráfico, de diversos
+			produtos da empresa
+%
+		\item Modelei matematicamente problemas físicos
+%
+		\item Operei e apresentei as criações ao público durante
+			eventos
+	\end{itemize}
+}
 
-	{\em\scriptsize Tecnologias: Ruby, Sequel (ruby gem), Roda (ruby gem),
-	PostgreSQL, AWS (Amazon Web Services), EC2 (Elastic Compute Cloud), SES
-	(Simple Email Service), SNS (Simple Notification Service), FCM
-	(Firebase Cloud Messaging), Facebook Graph API, Facebook Login.}
+\section{Habilidades}
 
-\item[2016--2017] Desenvolvedor Ruby on Rails Fullstack\\
-	{\em\small Papo de Homem}
+\cvitem{Main}{%
+\begin{itemize*}
+	\mainSkillsItems
+\end{itemize*}%
+}
 
-	Responsável por resolver problemas diversos e implementar novas
-	funcionalidades tanto no backend quanto no frontend do blog \emph{Papo
-	de Homem}.
+\cvitem{Others}{%
+\begin{itemize*}
+	\othersSkillsItems
+\end{itemize*}%
+}
 
-	Corrigi muitos bugs. Migrei banco de dados antigo. Implementei SSL.
-	Criei uma API JSON e implementei notificações Push para integração com
-	os apps mobile.
-
-	{\em\scriptsize \url{https://papodehomem.com.br}}
-
-	{\em\scriptsize Tecnologias: Ruby on Rails, HTML, Slim (ruby gem),
-	JavaScript, LetsEncrypt, Heroku, PostgreSQL, FCM (Firebase Cloud
-	Messaging), Elasticsearch, Redis, SideKiq, Facebook Social Plugins.}
-
-\item[2013--2014] Desenvolvedor Rails e Java Fullstack\\
-	{\em\small LambLamb--Impressões Impressionantes}
-
-	Responsável por manter, desenvolver, operar e dar suporte a outros
-	operadores da impressora de fotos do \emph{Instagram} --
-	\emph{LambLamb}. Trabalhei em dupla com outro programador.
-
-	Melhorei a qualidade das imagens impressas substituindo o formato de
-	imagem rasterizado por vetorizado. Criei um editor WYSIWYG de templates
-	de impressão, para personalização com logomarcas de clientes e
-	metadados da mídia. Operei e apresentei a \emph{LambLamb} ao público
-	durante eventos.
-
-	{\em\scriptsize Tecnologias: Ruby on Rails, Java, Java Printing API,
-	Java 2D Graphics API, Swing, HTML, JavaScript, Instagram API.}
-
-\item[2011--2013] Desenvolvedor Júnior\\
-	{\em\small Bebop--Computação Criativa}
-
-	Assistente no desenvolvimento de objetos e instalações interativas.
-
-	Melhorei o desempenho, especialmente gráfico, de diversos projetos da
-	empresa. Modelei matematicamente problemas físicos. Operei e apresentei
-	as criações ao público durante eventos.
-
-	{\em\scriptsize Tecnologias: C, Java, Processing, Arduino, XBee,
-	Kinect, OpenCV, OpenGL.}
-\end{topic}
+\section{Idiomas}
+\cvitemwithcomment{Português}{Nativo}{}
+\cvitemwithcomment{Inglês}{Avançado}{}
 
 \section{Formação Acadêmica}
 
-\begin{topic}
-\item[2009--2019] Bacharelado em Matemática\\
-	{\em\small UnB--Universidade de Brasília}
-
-\end{topic}
-
-\section{Certificados}
-
-\begin{topic}
-\item[2016] Machine Learning\\
-	{\em\small Coursera--Stanford}
-
-	Ampla introdução sobre aprendizado de máquina, mineração de dados e
-	reconhecimento de padrões estatísticos.
-
-	Tópicos incluem:
-	\begin{enumerate}
-		\item Aprendizagem supervisionada (algoritmos paramétricos e
-			não-paramétricos, support vector machines, núcleos,
-			redes neurais)
-
-		\item Aprendizagem não supervisionada (agrupamento, redução de
-			dimensionalidade, sistemas de recomendação, deep
-			learning)
-
-		\item Melhores práticas em aprendizado de máquina (teoria de
-			viés/variância; processo de inovação em aprendizado de
-			máquina e IA)
-	\end{enumerate}
-
-	Ministrado pelo professor \emph{Andrew Ng} da \emph{Universidade de
-	Stanford} através da plataforma online \emph{Coursera}.
-
-	{\scriptsize\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}}
-
-	{\em\scriptsize Tecnologias: Octave.}
-\end{topic}
+\cventry{2019}{Bacharelado em Matemática}{Universidade de Brasília}{}{}{}
 
 \section{Cursos}
-
-\begin{topic}
-\item[2017] Bitcoin and Cryptocurrency Technologies\\
-	{\em\small Coursera--Princeton}
-
-	Introdução aos aspectos técnicos, economicos e sociais da moeda
-	criptográfica Bitcoin.
-
-	Tópicos incluem:
-	\begin{enumerate}
-		\item Criptografia (simétrica e assimétrica, assinatura
-			digital, hash, hash pointer, block chain, merkle tree)
-		\item Descentralização da Bitcoin (problema dos generais
-			bizantinos)
-		\item Comunidade, política e regulação
-		\item Bitcoin como plataforma
-		\item Altcoins
-	\end{enumerate}
-
-	Ministrado pelo professor \emph{Arvind Narayanan} da
-	\emph{Universidade de Princeton} através da plataforma online
-	\emph{Coursera}.
-
-	{\em\scriptsize Tecnologias: Java.}
-
-%\item[2013] Rails para Designers\\
-%	{\em\small Julio Protzek}
-%
-%	Introdução a Ruby on Rails voltado para designers, apresentando
-%	a linguagem, framework e diversas ferramentas populares.
-%
-%	{\em\scriptsize Tecnologias: Ruby on Rails.}
-
-\item[2012] Microcontrolador MSP430 com memória FRAM\\
-	{\em\small TECHtraininG}
-
-	Apresentação das principais características da microcontroladora MSP430
-	da \emph{Texas Instruments} e sua memória ferroelétrica FRAM.
-
-\item[2011] Arduino Hack Day\\
-	{\em\small Mecajun--IEEE}
-
-	Introdução a eletrônica e programação utilizando a microcontroladora
-	Arduino. Ministrado pelo inventor \emph{Lucas Fragomeni}.
-
-	{\em\scriptsize Tecnologias: Arduino, C.}
-
-\end{topic}
+% FIXME: Princeton
+\cventry{2017}{Bitcoin and Cryptocurrency Technologies}{Coursera}{}{}{}
+% FIXME: Stanford
+\cventry{2016}{Machine Learning}{Coursera}{}{}{
+	{\scriptsize\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}}
+}
+\cventry{2015}{Learning How to Learn}{Coursera}{}{}{}
+\cventry{2012}{MSP430 com memória FRAM}{TECHtraininG}{}{}{}
+\cventry{2011}{Arduino Hack Day}{IEEE}{}{}{}
 
 \section{Projetos}
+\cventry{2017--Agora}{Intro da Raspberry~PI à comunidade do Igapó-Açu}{}{}{}{}
 
-\begin{topic}
-%\item[2017--Agora] Site da \emph{APROSMIG}
-%
-%	Encarregado técnico pelo site da \emph{APROSMIG} -- Associação das
-%	Prostitutas de Minas Gerais.
-%
-%	{\scriptsize\url{http://aprosmig.org.br}}
-%
-%	{\em\scriptsize Tecnologias: Ruby, Jekyll, Github Pages.}
+\cventry{2006--Agora}{Teh Engine -- Motor de jogos 3D}{}{}{}{
+	{\scriptsize\url{https://github.com/ayghor/teh\_engine}}
+}
 
-\item[2017--Agora] Introdução da Raspberry PI à comunidade do \emph{Igapó-Açu}
-
-	Estou escrevendo um material de introdução à computação e ao hardware
-	da Raspberry PI voltado para jovens da comunidade ribeirinha do
-	\emph{Igapó-Açu}, Amazonas, Brasil.
-
-	O propósito do material é ser um guia prático para a utilização e
-	abordar impactos da tecnologia na sociedade.
-
-	{\em\scriptsize Tecnologias: Raspberry PI, \LaTeX{}.}
-
-\item[2006--Agora] Motor de jogos 3D
-
-	Meu próprio motor de jogos 3D, que utiliza uma árvore BSP para acelerar
-	gráficos e testes de colisão. Inspirado em \emph{Quake}, escrito do
-	zero em C, com libSDL e OpenGL.
-
-	{\scriptsize\url{https://github.com/ayghor/teh_engine}}\\
-	{\scriptsize\url{https://github.com/ayghor/engine-on-Qua-Ago-29-09\_42\_48-BRT-2007}}
-
-	{\em\scriptsize Tecnologias: C, OpenGL, OpenGL ES 2.0, libSDL, Python,
-	Blender3D.}
-
-%\item[2010--2011] Pesquisa sobre métricas de vídeo sem referência\\
-%	{\em\small UnB--Mylène Farias}
-%
-%	Breve pesquisa sobre métricas de vídeo sem referência, coordenada pela
-%	professora \emph{Mylène Farias}. Implementei um algorítmo para detectar
-%	descontinuidades temporais em vídeos.
-%
-%	{\em\scriptsize Tecnologias: C, Gnuplot.}
-
-\item[2006--2011] Linux From Scratch
-
-	Minha própria distribuição Linux baseada em Slackware e no livro Linux
-	From Scratch. Desenvolvida e utilizada por mais de 4 anos, até a morte
-	de seu computador hospedeiro.
-
-	Destaques:
-
-	\begin{enumerate}
-		\item framework shellscript para compilar os pacotes de
-			software
-
-		\item aproximadamente 300 pacotes de software
-
-		\item gerenciador de pacotes binários
-
-		\item x86\_64 com suporte multilib de 64 e 32bits
-
-		\item scripts de inicialização estilo BSD
-
-		\item máxima conformidade possível com o FHS (Filesystem
-			Hierarchy Standard)
-	\end{enumerate}
-
+\cventry{2006--2011}{Rogix -- Distribuição Linux}{}{}{}{
 	{\scriptsize\url{https://github.com/ayghor/rogix\_gordax}}
-
-	{\em\scriptsize Tecnologias: sh, C.}
-
-\end{topic}
-
-\section{Tecnologias}
-
-\begin{multicols}{3}
-	\raggedcolumns
-	\begin{itemize}
-		\item Linux
-		\item C
-		\item Ruby
-		\item Java
-		\item Vim
-		\item Git
-		\item HTML
-		\item JavaScript
-		\item jQuery
-		\item Ruby on Rails
-		\item Jekyll
-		\item PostgreSQL
-		\item AWS
-		\item Heroku
-		\item OpenGL
-		\item \LaTeX{}
-		\item Bitcoin
-		\item Octave
-		\item Machine Learning
-	\end{itemize}
-\end{multicols}
-
-\section{Idiomas}
-
-\begin{multicols}{3}
-	\raggedcolumns
-	\begin{itemize}
-		\item Português
-		\item Inglês
-	\end{itemize}
-\end{multicols}
-
-%\section{Certificados}
-%
-%\begin{thebibliography}{1}
-%\bibitem{mlcert} {}
-%\end{thebibliography}
+}
 
 \end{document}

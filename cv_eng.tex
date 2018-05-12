@@ -1,300 +1,117 @@
-\documentclass[a4paper]{simplecv}
-\usepackage[utf8]{inputenc}
-%\usepackage[brazilian]{babel}
-\usepackage[hidelinks]{hyperref}
-\usepackage{multicol}
+\input{shared}
+\title{Fullstack Developer}
 
 \begin{document}
+\makecvtitle
 
-\leftheader{Avenida Central Bloco 1645\\
-Lote 10, ap 102\\
-Núcleo Bandeirante\\
-Brasília, DF\\
-71710-560 \\
-Brasil}
-
-\rightheader{\href{tel:+5561999894025}{+55 61 99989-4025}\\
-\href{mailto:rogi@skylittlesystem.org}{rogi@skylittlesystem.org}\\
-\url{https://github.com/ayghor}}
-
-\title{Igor de Sant'Ana Fontana}
-
-\maketitle
-
-I'm a self-taught programmer and math student who loves elegant solutions to
-real problems. I write code in \emph{C} since age 12 ($\approx 17$ years ago)
-and have been working with \emph{Ruby} and \emph{Rails} for the last 5 years.
-
-I believe that technology should be simple and useful. I like working with
-\emph{Linux} and \emph{Free Software} in general. Also have interest in
-\emph{Videogames}, \emph{Machine Learning}, teaching and playing guitar.
+\section{Summary}
+\cvitem{}{%
+	I'm a self-taught programmer and math student who loves elegant
+	solutions to real problems. I use \emph{Linux} and write code in
+	\emph{C} since age 12 ($\approx 17$ years ago) and have been working
+	with \emph{Ruby} and \emph{Rails} in the last 5 years. I believe that
+	technology should be simple and useful. I'm interested in \emph{Free
+	Software}, \emph{Videogames}, \emph{Machine Learning}, teaching and
+	playing guitar.
+}
 
 \section{Experience}
-
-\begin{topic}
-\item[2017] Ruby Backend Developer\\
-	{\em\small Wololo--We Convert}
-
-	In charge of modeling and implementing the backend of an advertising
-	and militant management platform. Worked in parallel with frontend
-	developers and designers.
-
-	Modeled the database and the business logic of the application to match
-	sketches made by product designers. Implemented a JSON API using
-	minimalist libraries to ensure the service was fast and lightweight.
-	Wrote detailed documentation for the web, iOS and Android developers.
-	Set up test and production servers.
-
-	{\em\scriptsize Technologies: Ruby, Sequel (ruby gem), Roda (ruby gem),
-	PostgreSQL, AWS (Amazon Web Services), EC2 (Elastic Compute Cloud), SES
-	(Simple Email Service), SNS (Simple Notification Service), FCM
-	(Firebase Cloud Messaging), Facebook Graph API, Facebook Login.}
-
-\item[2016--2017] Ruby on Rails Fullstack Developer\\
-	{\em\small Papo de Homem}
-
-	Responsible for solving issues and implementing new features both in
-	the backend and in the frontend of the \emph{Papo de Homem} blog.
-
-	Fixed many bugs. Migrated legacy database. Implemented SSL. Created a
-	JSON API and implemented Push notifications for integration with the
-	mobile apps.
-
-	{\em\scriptsize \url{https://papodehomem.com.br}}
-
-	{\em\scriptsize Technologies: Ruby on Rails, HTML, Slim (ruby gem),
-	JavaScript, LetsEncrypt, Heroku, PostgreSQL, FCM (Firebase Cloud
-	Messaging), Elasticsearch, Redis, SideKiq, Facebook Social Plugins.}
-
-\item[2013--2014] Rails and Java Fullstack Developer\\
-	{\em\small LambLamb--Impressões Impressionantes}
-
-	Responsible for maintaining, developing, operating and supporting other
-	operators of the Instagram photo printer -- \emph{LambLamb}. Worked
-	along another programmer.
-
-	Improved the print quality by replacing the rasterized image format
-	with a vectorized one. Created a WYSIWYG print template editor, for
-	customization with client logos and media metadata. Operated and
-	introduced \emph{LambLamb} to the public during events.
-
-	{\em\scriptsize Technologies: Ruby on Rails, Java, Java Printing API,
-	Java 2D Graphics API, Swing, HTML, JavaScript, Instagram API.}
-
-\item[2011--2013] Júnior Developer\\
-	{\em\small Bebop--Computação Criativa}
-
-	Assistant in the development of interactive objects and installations.
-
-	Improved the performance, specially graphic, of several of the company's
-	projects. Mathematically modeled physical problems. Operated and
-	presented the creations to the public during events.
-
-	{\em\scriptsize Technologies: C, Java, Processing, Arduino, XBee,
-	Kinect, OpenCV, OpenGL.}
-\end{topic}
-
-\section{Academic Formation}
-
-\begin{topic}
-\item[2009--2019] Bachelor of Mathematics\\
-	{\em\small UnB--Universidade de Brasília}
-
-\end{topic}
-
-\section{Certificates}
-
-\begin{topic}
-\item[2016] Machine Learning\\
-	{\em\small Coursera--Stanford}
-
-	Broad introduction to machine learning, data mining and statistical
-	pattern recognition.
-
-	Topics include:
-	\begin{enumerate}
-		\item Supervised learning (parametric/non-parametric
-			algorithms, support vector machines, kernels, neural
-			networks)
-
-		\item Unsupervised learning (clustering, dimensionality
-			reduction, recommender systems, deep learning)
-
-		\item Best practices in machine learning (bias/variance theory;
-			innovation process in machine learning and AI)
-	\end{enumerate}
-
-	Taught by professor \emph{Andrew Ng} from \emph{Stanford University}
-	through the online platform \emph{Coursera}.
-
-	{\scriptsize\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}}
-
-	{\em\scriptsize Technologies: Octave.}
-\end{topic}
-
-\section{Courses}
-
-\begin{topic}
-\item[2017] Bitcoin and Cryptocurrency Technologies\\
-	{\em\small Coursera--Princeton}
-
-	Introduction to the technical, economic and social aspects of the
-	Bitcoin cryptographic currency.
-
-	Topics include:
-	\begin{enumerate}
-		\item Criptography (symmetric and asymmetric, signature
-			digital, hash, hash pointer, block chain, merkle tree)
-		\item Bitcoin decentralization (byzantine generals' problem)
-		\item Community, politics and regulation
-		\item Bitcoin as a platform
-		\item Altcoins
-	\end{enumerate}
-
-	Taught by professor \emph{Arvind Narayanan} of \emph{Princeton
-	University} through the online platform \emph{Coursera}.
-
-	{\em\scriptsize Technologies: Java.}
-
-%\item[2013] Rails para Designers\\
-%	{\em\small Julio Protzek}
-%
-%	Introduction to Ruby on Rails aimed at designers, presenting the
-%	language, framework and various popular tools.
-%
-%	{\em\scriptsize Technologies: Ruby on Rails.}
-
-\item[2012] Microcontrolador MSP430 com memória FRAM\\
-	{\em\small TECHtraininG}
-
-	Presentation of the main features of the Texas Instruments' MSP430
-	microcontroller and its FRAM ferroelectric memory.
-
-\item[2011] Arduino Hack Day\\
-	{\em\small Mecajun--IEEE}
-
-	Introduction to electronics and programming using the Arduino
-	microcontroller. Taught by inventor \emph{Lucas Fragomeni}.
-
-	{\em\scriptsize Technologies: Arduino, C.}
-
-\end{topic}
-
-\section{Projects}
-
-\begin{topic}
-%\item[2017--Now] \emph{APROSMIG} website
-%
-%	In charge of the technical aspects of the \emph{APROSMIG} -- Associação
-%	das Prostitutas de Minas Gerais (Minas Gerais' Sex Workers Association)
-%	-- website.
-%
-%	{\scriptsize\url{http://aprosmig.org.br}}
-%
-%	{\em\scriptsize Technologies: Ruby, Jekyll, Github Pages.}
-
-\item[2017--Now] Introduction of the Raspberry PI to the \emph{Igapó-Açu} community
-
-	I'm writing an introduction to computing and the Raspberry PI hardware
-	aimed at the youth of the \emph{Igapó-Açu} riverside community,
-	Amazonas, Brasil.
-
-	The purpose of the material is to be a practical guide to using
-	technology and address some of it's impacts on society.
-
-	{\em\scriptsize Technologies: Raspberry PI, \LaTeX{}.}
-
-\item[2006--Now] 3D Game Engine
-
-	My own 3D game engine, which uses a BSP tree to accelerate graphics and
-	collision tests. Inspired in \emph{Quake}, written from scratch in C,
-	with libSDL and OpenGL.
-
-	{\scriptsize\url{https://github.com/ayghor/teh_engine}}\\
-	{\scriptsize\url{https://github.com/ayghor/engine-on-Qua-Ago-29-09\_42\_48-BRT-2007}}
-
-	{\em\scriptsize Technologies: C, OpenGL, OpenGL ES 2.0, libSDL, Python,
-	Blender3D.}
-
-%\item[2010--2011] Research on no-reference video metrics\\
-%	{\em\small UnB--Mylène Farias}
-%
-%	Brief research on no-reference video metrics, under professor
-%	\emph{Mylène Farias}. Implemented an algorithm for detecting temporal
-%	discontinuities in videos.
-%
-%	{\em\scriptsize Technologies: C, Gnuplot.}
-
-\item[2006--2011] Linux From Scratch
-
-	My own Linux distro based on Slackware and the Linux From Scratch book.
-	Developed and used for more than 4 years, until it's host computer
-	died.
-
-	Features:
-
-	\begin{enumerate}
-		\item shellscript framework for building software packages
-
-		\item around 300 software packages
-
-		\item binary package manager
-
-		\item x86\_64 with 64 and 32bit multilib support
-
-		\item BSD-style init scripts
-
-		\item maximum possible conformance with the FHS (Filesystem
-			Hierarchy Standard)
-	\end{enumerate}
-
-	{\scriptsize\url{https://github.com/ayghor/rogix\_gordax}}
-
-	{\em\scriptsize Technologies: sh, C.}
-
-\end{topic}
-
-\section{Technologies}
-
-\begin{multicols}{3}
-	\raggedcolumns
+\cventry{2017}{Backend Developer}{Wololo}{Recife}{}{
+	Advertising and militant management platform.
 	\begin{itemize}
-		\item Linux
-		\item C
-		\item Ruby
-		\item Java
-		\item Vim
-		\item Git
-		\item HTML
-		\item JavaScript
-		\item jQuery
-		\item Ruby on Rails
-		\item Jekyll
-		\item PostgreSQL
-		\item AWS
-		\item Heroku
-		\item OpenGL
-		\item \LaTeX{}
-		\item Bitcoin
-		\item Octave
-		\item Machine Learning
+		\item Developed a fast and lightweight JSON API
+%
+		\item Wrote detailed documentation for frontend developers
+%
+		\item Set up servers for speed and availability at low cost
 	\end{itemize}
-\end{multicols}
+}
+
+\cventry{2016--2017}{Fullstack Developer}{Papo de Homem}{Remote}{}{
+	Blog about men-related topics.
+	\begin{itemize}
+		\item Fixed lots of bugs
+%
+		\item Ensured the blog's uptime 24h, quickly solving issues
+%
+		\item Implemented SSL, improving ranking on search engines
+%
+		\item Implemented a JSON API and push notifications, allowing
+			development of mobile apps
+	\end{itemize}
+}
+
+\cventry{2013--2014}{Fullstack Developer}{LambLamb}{Brasília}{}{
+	Instagram photo printer for events.
+	\begin{itemize}
+		\item Improved the print quality by employing vector graphics
+			and appropriate scaling filters
+%
+		\item Created a WYSIWYG print template editor, allowing easy
+			customization with customer brands and media metadata
+%
+		\item Operated and presented LambLamb to the public during
+			events
+	\end{itemize}
+}
+
+\cventry{2011--2013}{Júnior Developer}{Bebop}{Brasília}{}{
+	Robotics and physical computing solutions for the advertising and
+	entertainment markets.
+	\begin{itemize}
+		\item Assisted in the development of interactive installations
+			using computer vision and mapped projections
+%
+		\item Improved the performance, specially graphic, of many of
+			the company's products
+%
+		\item Mathematically modelled physical problems
+%
+		\item Operated and presented creations to the public
+	\end{itemize}
+}
+
+\section{Skills}
+
+\cvitem{Main}{%
+\begin{itemize*}
+	\mainSkillsItems
+\end{itemize*}%
+}
+
+\cvitem{Others}{%
+\begin{itemize*}
+	\othersSkillsItems
+\end{itemize*}%
+}
 
 \section{Languages}
+\cvitemwithcomment{Portuguese}{Native}{}
+\cvitemwithcomment{English}{Advanced}{}
 
-\begin{multicols}{3}
-	\raggedcolumns
-	\begin{itemize}
-		\item Portuguese
-		\item English
-	\end{itemize}
-\end{multicols}
+\section{Academic Formation}
+\cventry{2019}{Bachelor of Mathematics}{University of Brasilia}{}{}{}
 
-%\section{Certificados}
-%
-%\begin{thebibliography}{1}
-%\bibitem{mlcert} {}
-%\end{thebibliography}
+\section{Courses}
+% FIXME: Princeton
+\cventry{2017}{Bitcoin and Cryptocurrency Technologies}{Coursera}{}{}{}
+% FIXME: Stanford
+\cventry{2016}{Machine Learning}{Coursera}{}{}{
+	{\scriptsize\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}}
+}
+\cventry{2015}{Learning How to Learn}{Coursera}{}{}{}
+\cventry{2012}{MSP430 com memória FRAM}{TECHtraininG}{}{}{}
+\cventry{2011}{Arduino Hack Day}{IEEE}{}{}{}
+
+\section{Projects}
+\cventry{2017--Now}{Intro of Raspberry~PI to the Igapó-Açu community}{}{}{}{}
+
+\cventry{2006--Now}{Teh Engine -- 3D Game Engine}{}{}{}{
+	{\scriptsize\url{https://github.com/ayghor/teh\_engine}}
+}
+
+\cventry{2006--2011}{Rogix -- Linux Distro}{}{}{}{
+	{\scriptsize\url{https://github.com/ayghor/rogix\_gordax}}
+}
 
 \end{document}
