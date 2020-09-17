@@ -1,159 +1,143 @@
-\input{shared}
-\usepackage[brazilian]{babel}
+\documentclass[a4paper,10pt]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[inline]{enumitem}
+\setlist{noitemsep}
+
+\moderncvstyle{classic}
+\moderncvcolor{red}
+\usepackage[scale=0.75]{geometry}
+
+\name{Pudim}{}
+\title{Software Developer}
+\address{68 Armoury Road}{SE8 4LB, London}{United Kingdom}
+\phone[mobile]{+44~7376~026007}
+\email{rogi@skylittlesystem.org}
+\social[github]{pudinha}
+\social[linkedin]{pudinha}
+\photo[80pt][0.4pt]{pic}
+\quote{0x5f3759df}
 
 \begin{document}
 \makecvtitle
 
-\section{Sumário}
+\newcommand{\x}[1]{\textbf{#1}}
+
+\section{Summary}
 \cvitem{}{%
-	Sou um programador autodidata e estudante de matemática que ama
-	soluções elegantes para problemas reais. Uso \emph{Linux} e programo em
-	\emph{C} desde os 12 anos ($\approx 17$ anos atrás) e tenho trabalhado
-	com \emph{Ruby} e \emph{Rails} nos últimos 5 anos. Acredito que
-	tecnologia deve ser simples e útil. Me interesso por \emph{Software
-	Livre}, \emph{Videogames}, \emph{Machine Learning}, ensinar e tocar
-	violão.
+	\x{Self-taught} hacker and cis-dissident person that goes by the name
+	\x{Pudim} and pronouns \x{she/her}. Fluent in \x{Portuguese} and
+	\x{English}. Have been programming in \x{C} and using \x{GNU/Linux}
+	since year \x{2000}, and working professionally with \x{Ruby~on~Rails}
+	since \x{2012}. As the need (often) arises, \x{submit patches} to
+	\x{Free and Open Source Software}. Writes \x{expressive} and
+	\x{meaningful} \x{code} and \x{tests}, following \x{conventions}. Good
+	at explaining and discussing ideas, \x{communicating} with
+	\x{precision} and \x{simplicity}. Experience comprises \x{teaching} and
+	\x{leading} junior developers. Looking for further developing abilities
+	and being recognized for the skill and commitment.
 }
 
-\section{Experiência}
-\cventry{2017}{Desenvolvedor Backend}{Wololo}{Recife}{}{
-	Plataforma de publicidade e gestão de militantes.\\
-%
-	{\scriptsize Backend em \textbf{Ruby} com \textbf{Roda},
-	\textbf{Sequel} e \textbf{PostgreSQL}.}
-%
-	\begin{itemize}
-		\item Levantei requisitos a partir de esboços e explicações dos
-			designers de produto
-%
-		\item Desenvolvi um backend rápido e leve utilizando gems
-			minimalistas e SQL otimizado
-%
-		\item Escrevi documentação detalhada para os desenvolvedores
-			frontend
-	\end{itemize}
+\section{Experience}
+\cventry{2018-Now}{Fullstack Developer}{Unboxed}{London}{United Kingdom}{
+	As a \x{Ruby} developer, worked in \x{Agile} teams, closely
+	collaborating with colleagues and clients, across multiple projects in
+	the \x{public sector}, including in the areas of \x{housing},
+	\x{healthcare} and \x{digital services}. Acted in \x{discovery},
+	\x{alpha}, \x{beta} and \x{live} phases of projects, being, at times,
+	the most experient developer, \x{teaching} and \x{leading} others. Also
+	part of the 24h \x{customer support} on call team, monitoring
+	\x{critical applications} and \x{infrastructure} (\x{AWS}) and
+	responding to \x{high priority issues}.
 }
 
-\cventry{2016--2017}{Desenvolvedor Fullstack}{Papo de Homem}{Remoto}{}{
-	Blog sobre masculinidade e assuntos relacionados.\\
-%
-	{\scriptsize Blog em \textbf{Ruby on Rails} com \textbf{PostgreSQL},
-	\textbf{Elasticsearch} e \textbf{Sidekiq}.}
-%
-	\begin{itemize}
-		\item Corrigi grande quantidade de bugs
-%
-		\item Mantive o blog no ar 24h, resolvendo problemas
-			rapidamente
-%
-		\item Implementei SSL, melhorando a colocação em motores de
-			busca
-%
-		\item Implementei API JSON e notificações push, permitindo a
-			criação de apps mobile
-	\end{itemize}
+\smallskip
+
+\cventry{2018}{Backend Developer}{AIS Digital}{Brasília}{Brasil}{
+	Implemented integrations between \x{SOAP Webservices} and \x{REST APIs}
+	for a big brazilian insurance company, using the platforms \x{IBM
+	Integration Bus} and \x{IBM API Connect}. Debugged and optimized the
+	company's BI product (\x{Java}).
 }
 
-\cventry{2013--2014}{Desenvolvedor Fullstack}{LambLamb}{Brasília}{}{
-	Impressora instantânea de fotos do Instagram para eventos.\\
-%
-	{\scriptsize Serviço web em \textbf{Ruby on Rails} e cliente de
-	impressão em \textbf{Java}.}
-%
-	\begin{itemize}
-		\item Melhorei a qualidade das impressões utilizando gráficos
-			vetorizados e filtros de redimensionamento adequados
-%
-		\item Criei editor WYSIWYG de templates de impressão, para
-			fácil personalização com marcas dos clientes e
-			metadados das mídias
-%
-		\item Operei e apresentei a LambLamb ao público durante
-			eventos
-	\end{itemize}
+\smallskip
+
+\cventry{2017}{Backend Developer}{Wololo}{Recife}{Brasil}{
+	\x{Modelled} and \x{implemented} the first version of the advertising
+	platform's \x{database} and \x{API}, using \x{PostgreSQL}, \x{Ruby} and
+	gems \x{Sequel} and \x{Roda}.
 }
 
-\cventry{2011--2013}{Desenvolvedor Júnior}{Bebop}{Brasília}{}{
-	Soluções em robótica e computação física para o mercado de publicidade
-	e entretenimento.\\
-%
-	{\scriptsize Produtos diversos utilizando \textbf{C}, \textbf{Java},
-	\textbf{Ruby on Rails}, \textbf{Arduino}, \textbf{Kinect},
-	\textbf{OpenGL}\dots{}.}
-%
-	\begin{itemize}
-		\item Auxiliei no desenvolvimento de instalações interativas
-			utilizando visão computacional e projeção mapeada
-%
-		\item Melhorei o desempenho, especialmente gráfico, de diversos
-			produtos da empresa
-%
-		\item Modelei matematicamente problemas físicos
-%
-		\item Operei e apresentei as criações ao público durante
-			eventos
-	\end{itemize}
+\smallskip
+
+\cventry{2016--2017}{Fullstack Developer}{Papo de Homem}{Remote}{Brasil}{
+	Responsible for giving technical support to the popular blog built with
+	\x{Ruby~on~Rails}, as well as developing new features. Implemented an
+	\x{API} and \x{push notifications} to allow the development of a mobile
+	app.
 }
 
-\section{Habilidades}
+\smallskip
 
-\cvitem{Main}{%
-\begin{itemize*}
-	\mainSkillsItems
-\end{itemize*}%
+\cventry{2011--2014}{Intern Developer}{Bebop}{Brasília}{Brasil}{
+	Worked in multiple projects involving \x{electronics}, \x{IoT},
+	\x{computer graphics} and \x{computer vision}, including
+	\emph{LambLamb}, an automated \x{Instagram} printer ---
+	\x{Ruby~on~Rails} backend and a \x{Java} client. Other developments
+	involved \x{Swing} GUIs, \x{Arduino}, \x{OpenGL}, \x{OpenCV},
+	\x{Kinect}\dots{} Also \x{presented} products to users and gave
+	technical \x{support} during events and exhibitions.
 }
 
-\cvitem{Others}{%
-\begin{itemize*}
-	\othersSkillsItems
-\end{itemize*}%
+\newpage
+
+\section{Projects}
+\cventry{2018--Now}{Em edificação}{}{}{}{
+	Game about a singer/minister on a quest against religious
+	fundamentalism. Features it's own implementation of a \x{Sequential
+	Impulse} solver for real-time \x{physics simulation}. Written in \x{C},
+	with \x{libSDL}. Artwork done with \x{Gimp}. Runs natively on
+	\x{GNU/Linux} and \x{Android}, or on any platform with \x{modern
+	browsers} --- thanks to \x{Emscripten}. Native ports to \x{Windows},
+	\x{OSX}, \x{iOS} and \x{game consoles} are planned. Source code to be
+	GPL'd when the game is released\dots{}
 }
 
-\section{Idiomas}
-\cvitemwithcomment{Português}{Nativo}{}
-\cvitemwithcomment{Inglês}{Avançado}{}
+\smallskip
 
-\section{Formação Acadêmica}
+\cventry{2006--Future}{Teh Engine(s)}{}{}{}{
+	A series of 3D game engines inspired by \x{Quake}, with the latest
+	version featuring a \x{Solid leaf BSP Tree} compiler for efficient
+	collision detection. Taught me a lot about \x{data structures},
+	\x{algorithms}, \x{linear algebra} and \x{computational geometry}, even
+	leading me to start a graduation in Mathematics. Written in \x{C} with
+	\x{libSDL} and \x{OpenGL}. 3D modelling in \x{Blender}. The earliest
+	version still compiles today.\\
+	\url{https://github.com/pudinha/teh\_engine}\\
+	\url{https://github.com/pudinha/engine-on-Qua-Ago-29-09_42_48-BRT-2007}
+}
 
-\cventry{2019}{Bacharelado em Matemática}{Universidade de Brasília}{}{}{}
+\smallskip
 
-\section{Cursos}
-% FIXME: Princeton
+\cventry{2006--2011}{Rogix/Gordax}{}{}{}{
+	\x{GNU/Linux distro} for x86 inspired by the \emph{Linux from Scratch}
+	book, motivated by an insatiable desire to control one's own computer
+	and make everything \x{perfect}. Co-developed with a friend and
+	activelly used by me as my main OS for about 5 years, until the host
+	computer passed away. It was a 32/64 bit \x{multilib} system featuring
+	a \x{X11} graphical environment, it's own \x{package manager} and
+	\x{shellscript framework} to build software from source, custom
+	\x{bootscripts} and many hacks. A very intense experience. Some of it
+	was salvaged from my colleague's backup and can seen on Github:\\
+	\url{https://github.com/pudinha/rogix\_gordax}
+}
+
+\section{Courses and Certifications}
+\cventry{2020}{Certified AWS Cloud Practitioner}{}{}{}{}
 \cventry{2017}{Bitcoin and Cryptocurrency Technologies}{Coursera}{}{}{}
-% FIXME: Stanford
 \cventry{2016}{Machine Learning}{Coursera}{}{}{
-	{\scriptsize\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}}
+	\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}
 }
-\cventry{2015}{Learning How to Learn}{Coursera}{}{}{}
-\cventry{2012}{MSP430 Microcontroller with FRAM memory}{TECHtraininG}{}{}{}
+\cventry{2012}{MSP430 microcontroller with FRAM memory}{TECHtraininG}{}{}{}
 \cventry{2011}{Arduino Hack Day}{IEEE}{}{}{}
-
-\section{Projetos}
-\cventry{2017--Agora}{Introdução da Raspberry~PI à comunidade do Igapó-Açu}{}{}{}{
-	Pequeno curso sobre computação e seus impactos na sociedade voltada aos
-	jovens da comunidade ribeirinha do Igapó-Açu, Amazonas, Brasil.\\
-%
-	{\scriptsize Texto em \textbf{\LaTeX{}}, práticas com a
-%
-	\textbf{Raspberry~PI}.}
-}
-
-\cventry{2006--Agora}{Teh Engine -- Motor de jogos 3D}{}{}{}{
-	Motor de jogos 3D que utiliza àrvores BSP para acelerar gráficos e
-	detecção de colisões.\\
-%
-	{\scriptsize Escrita do zero em \textbf{C} com \textbf{libSDL} e
-	\textbf{OpenGL}.}\\
-%
-	{\scriptsize\url{https://github.com/ayghor/teh\_engine}}
-}
-
-\cventry{2006--2011}{Rogix -- Distribuição Linux}{}{}{}{
-	Distribuição Linux feita do zero.\\
-%
-	{\scriptsize Ferramentas e automações em \textbf{shell script}.}\\
-%
-	{\scriptsize\url{https://github.com/ayghor/rogix\_gordax}}
-}
 
 \end{document}
