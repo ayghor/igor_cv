@@ -3,175 +3,198 @@
 \usepackage[inline]{enumitem}
 \setlist{noitemsep}
 
-\moderncvstyle{classic}
+\moderncvstyle{banking}
 \moderncvcolor{red}
-\usepackage[scale=0.75]{geometry}
+\usepackage[margin=2cm]{geometry}
+\recomputelengths
 
 \name{Pudim}{}
 \title{Software Developer}
-\address{68 Armoury Road}{SE8 4LB, London}{United Kingdom}
+\address{London}{United Kingdom}
 \phone[mobile]{+44~7376~026007}
 \email{rogi@skylittlesystem.org}
 \social[github]{pudiva}
 \social[linkedin]{pudiva}
-\photo[80pt][0.4pt]{pic}
+%\extrainfo{\url{https://skylittlesystem.org}}
+%\photo[80pt][0.4pt]{pic}
 \quote{0x5f3759df}
 
 \begin{document}
 \makecvtitle
 
 \newcommand{\x}[1]{\textbf{#1}}
+\newcommand{\ghuser}{pudiva}
+\newcommand{\ghrepo}[1]{\url{https://github.com/#1}}
+\newcommand{\ghpulls}[1]{\ghrepo{#1/pulls?q=author\%3A\ghuser}}
+\newcommand{\ghcommits}[1]{\ghrepo{#1/commits?author=\ghuser}}
 
 \section{Summary}
-\cvitem{}{%
-	\x{Self-taught} hacker and cis-dissident person that goes by the name
-	\x{Pudim} and pronouns \x{she/her}. Fluent in \x{Portuguese} and
-	\x{English}. Have been programming in \x{C} and using \x{GNU/Linux}
-	since year \x{2000}, and working professionally with \x{Ruby~on~Rails}
-	since \x{2012}. Contributes to \x{Free/Open Source Software}.
-	\x{Collaborates} with designers, product managers, \x{clients} and
-	\x{users} to \x{create} and \x{iterate} on solutions. Experience
-	comprises \x{teaching} and \x{leading} junior developers. Looking for
-	further developing abilities and being recognized for the skill and
-	commitment.
+\cvitem{}{
+	Pronouns \x{she/her}. \x{Self-taught} hacker, \x{C} programmer and
+	\x{GNU/Linux} advocate since \x{year 2000}, and professional
+	\x{Ruby~on~Rails} developer since \x{2012} (\x{\textasciitilde 8 years
+	ago}). Moved to \x{London} in \x{2019} (\x{\textasciitilde 2 years
+	ago}) to work as a developer. Believes that software development should
+	be \x{driven by people}'s needs. Experienced at \x{designing} and
+	\x{implementing} \x{software}, as well as deploying \x{cloud
+	infrastructure} (\x{AWS}), learning new skills on the go and teaching
+	others as required. Fluent in \x{Portuguese} and \x{English}.
 }
 
-\section{Experience}
-\cventry{2018--2020}{Fullstack Developer}{Unboxed}{London}{United Kingdom}{
-	As a \x{Ruby} developer, worked in \x{Agile} teams, closely
-	collaborating with colleagues and clients, across multiple projects in
-	the \x{public sector}, including in the areas of \x{housing},
-	\x{healthcare} and \x{digital services}. Acted in \x{discovery},
-	\x{alpha}, \x{beta} and \x{live} phases of projects, being, at times,
-	the most experient developer, \x{teaching} and \x{leading} others. Also
-	part of the 24h \x{customer support} on call team, monitoring
-	\x{critical applications} and \x{infrastructure} (\x{AWS}) and
-	responding to \x{high priority issues}.
+\cvitem{Skills}{
+	\begin{itemize*}
+		\item \x{C}
+		\item \x{Ruby~on~Rails}
+		\item \x{GNU/Linux}
+		\item \x{AWS}
+		\item \x{SQL}
+		\item \x{libSDL}
+		\item \x{OpenGL}
+		\item \x{Git}
+		\item \x{Vim}
+		\item \dots
+	\end{itemize*}
 }
 
-\smallskip
-
-\cventry{2018}{Backend Developer}{AIS Digital}{Brasília}{Brasil}{
-	Implemented integrations between \x{SOAP Webservices} and \x{REST APIs}
-	for a big brazilian insurance company, using the platforms \x{IBM
-	Integration Bus} and \x{IBM API Connect}. Debugged and optimized the
-	company's BI product (\x{Java}) performance.
+\section{Professional Experience}
+\cventry{2018--2020}{Fullstack \x{Ruby~on~Rails} Developer}{Unboxed}{London, United Kingdom}{}{
+	\begin{itemize}
+		\item Worked in \x{Agile} teams, collaborating with designers, product owners, end-users and other stakeholders
+		\item Led developers in two projects for the public sector
+			\begin{itemize}
+				\item a patient remote monitoring \x{MVP} for the \emph{Guy's and St Thomas' NHS Foundation Trust}
+				\item extension of a housing repair management system for \emph{Hackney Council}
+			\end{itemize}
+		\item Participated in a number of other projects, including
+			\begin{itemize}
+				\item update of a number of \x{Ruby~on~Rails} \x{microservices} for the \emph{Government Digital Service}
+				\item localization of the \emph{UK Parliament petitions website} for the \emph{Welsh Parliament}
+				\item a discovery on how to improve the processing of development planning applications for \emph{Southwark Council}
+			\end{itemize}
+		\item Part of the 24h \x{customer support on call} team, monitoring critical applications and \x{AWS} infrastructure
+		\item Taught junior developers
+	\end{itemize}
 }
 
-\smallskip
-
-\cventry{2017}{Backend Developer}{Wololo}{Recife}{Brasil}{
-	\x{Modelled} and \x{implemented} the first version of the advertising
-	platform's \x{database} and \x{API}, using \x{PostgreSQL}, \x{Ruby} and
-	gems \x{Sequel} and \x{Roda}.
+\cventry{2018}{Backend \x{Java} Developer}{AIS Digital}{Brasília, Brasil}{}{
+	\begin{itemize}
+		\item Integrated enterprise \x{SOAP Webservices} and \x{REST APIs}
+		\item Debugged and optimized the company's BI product
+	\end{itemize}
 }
 
-\smallskip
-
-\cventry{2016--2017}{Fullstack Developer}{Papo de Homem}{\x{Remote}}{Brasil}{
-	Responsible for giving technical support to the popular blog built with
-	\x{Ruby~on~Rails}, as well as developing new features. Implemented an
-	\x{API} and \x{push notifications} to allow the development of a mobile
-	app.
+\cventry{2017}{Backend \x{Ruby} Developer (contractor)}{Wololo}{Recife, Brasil}{}{
+	\begin{itemize}
+		\item Modelled the application business logic and database
+		\item Designed and implemented the application's \x{API}
+	\end{itemize}
 }
 
-\smallskip
-
-\cventry{2011--2014}{Intern Developer}{Bebop}{Brasília}{Brasil}{
-	Worked in multiple projects involving \x{electronics}, \x{IoT},
-	\x{computer graphics} and \x{computer vision}, including
-	\emph{LambLamb}, an automated \x{Instagram} printer ---
-	\x{Ruby~on~Rails} backend and a \x{Java} client. Other developments
-	involved \x{Swing} GUIs, \x{Arduino}, \x{OpenGL}, \x{OpenCV},
-	\x{Kinect}\dots{} Also \x{presented} products to users and gave
-	technical \x{support} during events and exhibitions.
+\cventry{2016--2017}{Fullstack \x{Ruby~on~Rails} Developer (contractor)}{Papo de Homem}{\x{Remote} Brasil}{}{
+	\begin{itemize}
+		\item Responsible for \x{technical support}
+		\item Developed a public \x{API} and implemented push notifications for mobile clients
+	\end{itemize}
 }
 
-\newpage
-
-\section{Projects}
-\cventry{2018--Now}{Em Edificação}{}{}{}{
-	Game about a singer/minister on a quest against religious
-	fundamentalism. Features it's own implementation of a \x{Sequential
-	Impulse} solver for real-time \x{physics simulation}. Written in \x{C},
-	with \x{libSDL} and considering including \x{mruby}. Artwork done with
-	\x{Gimp}. Runs natively on \x{GNU/Linux} and \x{Android}, or on any
-	platform with \x{modern browsers} --- thanks to \x{Emscripten}. Native
-	ports to \x{Windows}, \x{OSX}, \x{iOS} and \x{game consoles} are
-	planned. Source code cannot be shared at the moment because of
-	intelectual property issues\dots{}
-}
-
-\smallskip
-
-\cventry{2006--Future}{Teh Engine(s)}{}{}{}{
-	A series of 3D game engines inspired by \x{Quake}, with the latest
-	version featuring a \x{Solid Leaf BSP Tree} compiler for efficient
-	collision detection. Taught me a lot about \x{data structures},
-	\x{algorithms}, \x{linear algebra} and \x{computational geometry}, even
-	leading me to start a graduation in Mathematics. Written in \x{C} with
-	\x{libSDL} and \x{OpenGL}. 3D modelling in \x{Blender}. The earliest
-	version still compiles today.\\
-	\url{https://github.com/pudiva/teh\_engine}\\
-	\url{https://github.com/pudiva/engine-on-Qua-Ago-29-09_42_48-BRT-2007}
-}
-
-\smallskip
-
-\cventry{2006--2011}{Rogix/Gordax}{}{}{}{
-	\x{GNU/Linux distro} for x86 inspired by the \emph{Linux From Scratch}
-	book, motivated by an insatiable desire to control one's own computer
-	and make everything \x{perfect}. Co-developed with a friend and
-	activelly used by me as my main OS for about 5 years, until the host
-	computer passed away. It was a 32/64 bit \x{multilib} system featuring
-	a \x{X11} graphical environment, it's own \x{package manager} and
-	\x{shellscript framework} to build software from source, custom
-	\x{bootscripts} and many hacks. A very intense experience. Some of it
-	was salvaged from my colleague's backup and can seen on Github:\\
-	\url{https://github.com/pudiva/rogix\_gordax}
+\cventry{2011--2014}{Intern \x{Polyglot} Developer}{Bebop}{Brasília, Brasil}{}{
+	\begin{itemize}
+		\item Worked in multiple projects involving \x{electronics}, \x{IoT}, \x{computer graphics} and \x{computer vision}
+		\item Participated in the development of \emph{LambLamb} --- an automated \x{Instagram} printer (\x{Java}, \x{Ruby~on~Rails})
+		\item Presented projects to users and provided technical support during exhibitions
+	\end{itemize}
 }
 
 \section{Courses and Certifications}
 \cventry{2020}{Certified AWS Cloud Practitioner}{Amazon Web Services}{}{}{}
-\cventry{2017}{Bitcoin and Cryptocurrency Technologies}{Coursera}{}{}{}
-\cventry{2016}{Machine Learning}{Coursera}{}{}{
-	\url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}
+\cventry{2017}{Bitcoin and Cryptocurrency Technologies}{Princeton (Coursera)}{}{}{}
+\cventry{2016}{Machine Learning}{Stanford (Coursera)}{}{}{
+	\begin{itemize}
+		\item \url{https://www.coursera.org/account/accomplishments/verify/NE32SCRBV3F6}
+	\end{itemize}
 }
 \cventry{2012}{MSP430 microcontroller with FRAM memory}{TECHtraininG}{}{}{}
 \cventry{2011}{Arduino Hack Day}{IEEE}{}{}{}
 
+\section{Personal Projects}
+\cventry{2006--Now}{Author}{Em Edificação}{}{}{
+	\emph{Em Edificação} -- translated \emph{Edification} -- is a 3D videogame written from scratch in \x{C} using \x{libSDL} and \x{OpenGL}. My biggest personal project, on which I've been working on and off throughout many years.
+	\begin{itemize}
+		\item Implemented a \x{Solid Leaf BSP Tree} compiler for collision detection and polygon sorting
+		\item Implemented a \x{Sequential Impulse} solver for real-time physics simulation
+		\item Ported to \x{Linux} and \x{Android} and modern browsers with \x{WebGL} -- thanks to \x{Emscripten}
+	\end{itemize}
+	Newest version still to be made public, but older incarnations can be found at:
+	\begin{itemize}
+		\item \ghrepo{\ghuser/teh_engine}
+		\item \ghrepo{\ghuser/engine-on-Qua-Ago-29-09_42_48-BRT-2007}
+	\end{itemize}
+}
+
+\cventry{2006--2011}{Co-Author}{Rogix/Gordax}{}{}{
+	A multilib \x{GNU/Linux distro} for x86\_64 inspired by the \emph{Linux From
+	Scratch} book, motivated by an insatiable desire to control one's own
+	computer and build everything from source.
+	\begin{itemize}
+		\item Designed and/or implemented
+			\begin{itemize}
+				\item a package manager
+				\item multilib header file wrappers
+				\item bootscripts
+				\item a build script framework
+			\end{itemize}
+		\item Built a myriad of binary software packages (including \x{gcc}, \x{glibc} and \x{X11}) from source
+		\item Used as main OS for \x{\textasciitilde 5 years} --- until it's host computer passed away
+	\end{itemize}
+	Some of it's source code was salvaged and is available at:
+	\begin{itemize}
+		\item \ghrepo{\ghuser/rogix_gordax}
+	\end{itemize}
+}
+
 \section{Some Contributions to Free/Open Source Software}
-\cventry{2020}{Git}{}{}{}{
-	\url{https://github.com/git/git/commits?author=pudiva}\\
-	\url{https://public-inbox.org/git/20200718192001.27434-1-rogi@skylittlesystem.org/}
+\cventry{2020}{mergetools: add support for nvimdiff (neovim) family}{Git}{\x{C language, \x{shellscript}}}{}{
+	\begin{itemize}
+		\item \ghcommits{git/git}
+		\item \url{https://public-inbox.org/git/20200718192001.27434-1-rogi@skylittlesystem.org/}
+	\end{itemize}
 }
 
-\cventry{2020}{Emscripten}{}{}{}{
-	\url{https://github.com/emscripten-core/emscripten/commits?author=pudiva}
+\cventry{2020}{Add MP3 support to SDL2\_mixer}{Emscripten}{\x{C language}, \x{Python}}{}{
+	\begin{itemize}
+		\item \ghpulls{emscripten-core/emscripten}
+	\end{itemize}
 }
 
-\cventry{2020}{SDL\_image}{}{}{}{
-	\url{https://hg.libsdl.org/SDL_image/rev/082214c629d1}\\
-	\url{https://bugzilla.libsdl.org/show_bug.cgi?id=4964}
+\cventry{2020}{Fix XPM having white as color key (transparency)}{SDL\_image}{\x{C language}}{}{
+	\begin{itemize}
+		\item \url{https://hg.libsdl.org/SDL_image/rev/082214c629d1}
+		\item \url{https://bugzilla.libsdl.org/show_bug.cgi?id=4964}
+	\end{itemize}
 }
 
-\cventry{2020}{Gimp}{}{}{}{
-	\url{https://gitlab.gnome.org/GNOME/gimp/-/commit/22bedfc3}
+\cventry{2020}{Fix \#4560 - file-xpm saving unused transparency}{Gimp}{\x{C language}}{}{
+	\begin{itemize}
+		\item \url{https://gitlab.gnome.org/GNOME/gimp/-/commit/22bedfc3}
+	\end{itemize}
 }
 
-\cventry{2020}{Active Graph (Neo4j.rb)}{}{}{}{
-	\url{https://github.com/neo4jrb/activegraph/pull/1540}
+\cventry{2020}{Fix RandomSchemaGenerator.new always returning equivalent generators}{govuk\_schemas (Government Digital Service)}{\small \x{Ruby}}{}{
+	\begin{itemize}
+		\item \ghpulls{alphagov/govuk_schemas}
+	\end{itemize}
 }
 
-%\cventry{2020}{UK Petitions}{}{}{}{
-%	\url{https://github.com/alphagov/e-petitions/commits?author=pudiva}
-%}
-%
-%\cventry{2020}{Senedd Petitions}{}{}{}{
-%	\url{https://github.com/SeneddCymru/e-petitions/commits?author=pudiva}
-%}
-%
-%\cventry{2020}{govuk\_scemas}{}{}{}{
-%	\url{https://github.com/alphagov/govuk_schemas/pull/60}
-%}
+\cventry{2020}{Forbid URIs on signature names}{UK Parliament petitions}{\x{Ruby}}{}{
+	\begin{itemize}
+		\item \ghpulls{alphagov/e-petitions}
+	\end{itemize}
+}
+
+\cventry{2020}{Fix wait\_for\_connection not waiting for connection}{Active Graph (Neo4j.rb)}{\x{Ruby}}{}{
+	\begin{itemize}
+		\item \ghpulls{neo4jrb/activegraph}
+	\end{itemize}
+}
+
 \end{document}
