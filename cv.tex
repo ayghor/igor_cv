@@ -23,6 +23,7 @@
 \makecvtitle
 
 \newcommand{\x}[1]{\textbf{#1}}
+\newcommand{\y}[1]{\x{\emph{#1}}}
 \newcommand{\ghuser}{pudiva}
 \newcommand{\ghrepo}[1]{\url{https://github.com/#1}}
 \newcommand{\ghpulls}[1]{\ghrepo{#1/pulls?q=author\%3A\ghuser}}
@@ -61,31 +62,31 @@
 		\item Effectively worked in \x{Agile} teams, collaborating with designers, product owners, end-users and other stakeholders
 		\item Led developers in two projects for the public sector
 			\begin{itemize}
-				\item developing a patient remote monitoring \x{MVP} for the \emph{Guy's and St Thomas' NHS Foundation Trust}
-				\item extending a housing repair management system for \emph{Hackney Council}
+				\item developed a patient \href{https://www.guysandstthomas.nhs.uk/our-services/rheumatology/specialties/rheumatoid-arthritis/remote-monitoring-service.aspx}{\color{red}\y{remote monitoring MVP}} for \y{GSTT (Guy's and St Thomas' NHS Foundation Trust)}
+				\item extended \y{Repairs Hub} -- an application for managing housing repair tickets used by \y{Hackney Council}
 			\end{itemize}
 		\item Participated in a number of other projects, including
 			\begin{itemize}
-				\item updating \x{Ruby~on~Rails} \x{microservices} for the \emph{Government Digital Service}
-				\item translating of the \emph{UK Parliament petitions website} for the \emph{Welsh Parliament}
-				\item a discovery phase on how to improve the processing of development planning applications for \emph{Southwark Council}
+				\item updated \x{Ruby~on~Rails} \x{microservices} for \y{GDS (Government Digital Service)}
+				\item implemented \x{i18n (internationalization)} of the \href{https://petition.parliament.uk/}{\color{red}\y{UK Parliament petitions}} for use as the \href{https://petitions.senedd.wales/}{\color{red}\y{Welsh Parliament petitions}}
+				\item developed the \x{alpha phase} prototype of \href{https://bops.digital/}{\color{red}\y{BOPS (Back Office Planning System)}} for \y{Southwark Council}
 			\end{itemize}
 		\item Part of the 24h \x{customer support on call} team, monitoring critical applications and \x{AWS} infrastructure
-		\item Taught junior developers
+		\item Taught junior developers % TODO: more details
 	\end{itemize}
 }
 
 \cventry{2018}{Backend \x{Java} Developer}{AIS Digital}{Brasília, Brasil}{}{
 	\begin{itemize}
-		\item Integrated enterprise \x{SOAP Webservices} and \x{REST APIs}
-		\item Debugged and optimized the company's BI product
+		\item Integrated enterprise \x{SOAP Webservices} and \x{REST APIs} within a large insurance company
+		\item Debugged and optimized the company's BI product by analyzing it's database usage patterns
 	\end{itemize}
 }
 
 \cventry{2017}{Backend \x{Ruby} Developer (contractor)}{Wololo}{Recife, Brasil}{}{
 	\begin{itemize}
-		\item Modelled the application business logic and database
-		\item Designed and implemented the application's \x{API}
+		\item Modelled the first version of the application's business logic and database schema
+		\item Designed and implemented the application's \x{API} for use by it's web and mobile clients
 	\end{itemize}
 }
 
@@ -116,7 +117,7 @@
 \cventry{2011}{Arduino Hack Day}{IEEE}{}{}{}
 
 \section{Personal Projects}
-\cventry{2006--Now}{Authoar and developer}{Em Edificação (videogame)}{}{}{
+\cventry{2006--Now}{Author and developer}{Em Edificação (videogame)}{}{}{
 	\emph{Em Edificação} -- translated \emph{Edification} -- is a 3D videogame written from scratch in \x{C} using \x{libSDL} and \x{OpenGL}. My biggest personal project, on which I've been working on and off throughout many years.
 	\begin{itemize}
 		\item Implemented a \x{Solid Leaf BSP Tree} compiler for collision detection and polygon sorting
