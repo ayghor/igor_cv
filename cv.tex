@@ -23,7 +23,7 @@
 \makecvtitle
 
 \newcommand{\x}[1]{\textbf{#1}}
-\newcommand{\y}[1]{\x{\emph{#1}}}
+\newcommand{\y}[1]{\emph{#1}}
 \newcommand{\ghuser}{pudiva}
 \newcommand{\ghrepo}[1]{\url{https://github.com/#1}}
 \newcommand{\ghpulls}[1]{\ghrepo{#1/pulls?q=author\%3A\ghuser}}
@@ -31,14 +31,10 @@
 
 \section{Summary}
 \cvitem{}{
-	Pronouns \x{she/her}. \x{Self-taught} hacker, \x{C} programmer and
-	\x{GNU/Linux} advocate since \x{2000}, and professional
-	\x{Ruby~on~Rails} developer since \x{2012} (\x{8 years ago}). Moved to
-	\x{London} in \x{2019} to work as a developer. Believes that software
-	development should be \x{driven by people's needs}. Experienced at
-	\x{designing} and \x{implementing} \x{software}, as well as deploying
-	\x{cloud infrastructure} (\x{AWS}), learning new skills on the go and
-	teaching others as required. Fluent in \x{Portuguese} and \x{English}.
+	Pronouns \x{she/her}. \x{Self-taught} hacker, \x{C} programmer and \x{GNU/Linux} advocate since 2000, and professional \x{Ruby~on~Rails developer with 6 years of experience}.
+	Experienced at \x{collaboratively designing and implementing software} tailored to \x{optimize customers' business objectives}, learning and exchanging skills with others on the go.
+	Believes that software development should be \x{driven by people's needs}.
+	Fluent in \x{Portuguese} and \x{English}. Moved to London in 2018 looking for new challenges.
 }
 
 \cvitem{Skills}{
@@ -60,26 +56,26 @@
 \cventry{2018--2020}{Fullstack \x{Ruby~on~Rails} Developer}{Unboxed}{London, United Kingdom}{}{
 	\begin{itemize}
 		\item Effectively worked in \x{Agile} teams, collaborating with designers, product owners, end-users and other stakeholders
-		\item Led developers in two projects for the public sector
+		\item \x{Led} developers in two projects with local government
 			\begin{itemize}
-				\item developed a patient \href{https://www.guysandstthomas.nhs.uk/our-services/rheumatology/specialties/rheumatoid-arthritis/remote-monitoring-service.aspx}{\color{red}\y{Remote Monitoring MVP}} for \y{GSTT (Guy's and St Thomas' NHS Foundation Trust)}
-				\item extended \y{Repairs Hub} -- an application for managing housing repair tickets used by \y{Hackney Council}
+				\item developed the \href{https://www.guysandstthomas.nhs.uk/our-services/rheumatology/specialties/rheumatoid-arthritis/remote-monitoring-service.aspx}{\color{red}\y{Remote Monitoring \x{MVP}}} for the \y{Guy's and St Thomas Trust}, to help clinicians remotely monitor their patients
+				\item extended \y{Repairs Hub}, used by \y{Hackney Council} to track housing repair tickets, by \x{reverse-engineering} legacy systems
 			\end{itemize}
-		\item Participated in a number of other projects, including
+		\item Worked as a developer in other projects with the public sector
 			\begin{itemize}
-				\item updated \x{Ruby~on~Rails} \x{microservices} for \y{GDS (Government Digital Service)}
+				\item performed \x{Rails upgrades} on \y{GDS (Government Digital Service)} \x{microservices}
 				\item implemented \x{i18n (internationalization)} of the \href{https://petition.parliament.uk/}{\color{red}\y{UK Parliament petitions}} for use as the \href{https://petitions.senedd.wales/}{\color{red}\y{Welsh Parliament petitions}}
 				\item developed the \x{alpha phase} prototype of \href{https://bops.digital/}{\color{red}\y{BOPS (Back Office Planning System)}} for \y{Southwark Council}
 			\end{itemize}
 		\item Part of the 24h \x{customer support on call} team, monitoring critical applications and \x{AWS} infrastructure
-		\item Taught junior developers % TODO: more details
+		\item Encouraged the growth of junior developers through \x{code reviews} and \x{pair programming}
 	\end{itemize}
 }
 
 \cventry{2018}{Backend \x{Java} Developer}{AIS Digital}{Brasília, Brasil}{}{
 	\begin{itemize}
-		\item Integrated enterprise \x{SOAP Webservices} and \x{REST APIs} within a large insurance company
-		\item Debugged and optimized the company's BI product by analyzing database usage patterns
+		\item \x{Integrated} enterprise SOAP Webservices and REST APIs within a large insurance company
+		\item \x{Debugged} and \x{optimized} the company's BI product by analyzing database usage patterns
 	\end{itemize}
 }
 
@@ -92,15 +88,16 @@
 \cventry{2016--2017}{Fullstack \x{Ruby~on~Rails} Developer (contractor)}{Papo de Homem}{\x{Remote} Brasil}{}{
 	\begin{itemize}
 		\item Developed a public \x{API} and implemented push notifications for mobile clients
-		\item Responsible for \x{technical support}
+		\item Provided \x{technical support on call}
 	\end{itemize}
 }
 
 \cventry{2011--2014}{Intern \x{Polyglot} Developer}{Bebop}{Brasília, Brasil}{}{
 	\begin{itemize}
 		\item Worked in multiple projects involving \x{electronics}, \x{IoT}, \x{computer graphics} and \x{computer vision}
-		\item Participated in the development of \emph{LambLamb} --- an automated \x{Instagram} printer (\x{Java}, \x{Ruby~on~Rails})
-		\item Presented projects to users and provided technical support during exhibitions
+		\item Co-developed \emph{LambLamb} --- an automated \y{Instagram} printer (\x{Java}, \x{Ruby~on~Rails})
+		\item \x{Optimized} projects' graphic \x{performance} and \x{quality}
+		\item Presented projects to users and provided \x{technical support} during exhibitions
 	\end{itemize}
 }
 
@@ -119,8 +116,12 @@
 \cventry{2006--Now}{Author and developer}{Em Edificação (videogame)}{}{}{
 	\emph{Em Edificação} -- translated \emph{Edification} -- is a 3D videogame written from scratch in \x{C} using \x{libSDL} and \x{OpenGL}. My biggest personal project, on which I've been working on and off throughout many years.
 	\begin{itemize}
-		\item Implemented a \x{Solid Leaf BSP Tree} compiler for collision detection and polygon sorting
-		\item Implemented a \x{Sequential Impulse} solver for real-time physics simulation
+		\item Implemented \x{complex mathematical algorithms}
+			\begin{itemize}
+				\item a \x{Solid Leaf BSP Tree} compiler to \x{optimize} collision detection and polygon sorting
+				\item a \x{Sequential Impulse} solver for fast real-time physics simulation
+				\item a \x{BVH} (Bounding Volumes Hierarchy) tree to \x{optimize} collision queries
+			\end{itemize}
 		\item Ported to \x{Linux} and \x{Android} and modern browsers with \x{WebGL} -- thanks to \x{Emscripten}
 	\end{itemize}
 	Newest version still to be made public, but older incarnations can be found at:
@@ -145,7 +146,7 @@
 		\item Built a myriad of binary software packages (including \x{gcc}, \x{glibc} and \x{X11}) from source
 		\item Used as main OS for \x{\textasciitilde 5 years} --- until its host computer passed away
 	\end{itemize}
-	Some of its source code was salvaged and is available at:
+	Some of its source code was salvaged from old backups and is available for amusement at:
 	\begin{itemize}
 		\item \ghrepo{\ghuser/rogix_gordax}
 	\end{itemize}
