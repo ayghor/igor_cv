@@ -70,15 +70,15 @@ Also, we observed that tests are at most as good as how much they fail (with tes
 
 Dear hubbers,
 
-hope you are doing well in this pandemic. I write to you submitting my application to the “Software Engineer - App Core” position. I’m confident that I have the skills and that the role is what I’m looking for.
+I hope you are doing well in this pandemic. I’m writing to submit my application to the “Software Engineer – App Core” position. I’m confident that I have the skills and that the role is what I’m looking for.
 
-I'm a passionate self-taught hacker with diverse experience. I learned my first programming language, C, when I was 12, and worked my way trying to do things from scratch, such as implementing complex mathematical algorithms for video games and developing a whole GNU/Linux distribution.
+I'm a passionate self-taught hacker with diverse experience. I learned my first programming language, C, when I was 12, and worked my way doing things from scratch, such as implementing complex mathematical algorithms for video games and developing a whole GNU/Linux distribution.
 
-Working as a full stack Ruby on Rails developer for 6 years, delivering excellent results and constantly improving myself, I had a rapid career progression. Two years ago, I moved from Brasil to the UK looking for new challenges.
+Working as a full stack Ruby on Rails developer for 6 years, delivering excellent results and constantly improving myself, I had a rapid career progression. Two years ago, I moved from Brazil to the UK looking for new challenges.
 
 I believe that GitHub is a place where I’ll find interesting challenges, capable colleagues and a diverse and inclusive culture, where I’ll perform my best, do meaningful work and become an even better professional.
 
 Hope to hear from you soon!
 
-Best regards  
+Best regards,  
 Pudim
