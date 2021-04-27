@@ -1,33 +1,7 @@
-\documentclass[a4paper,10pt]{moderncv}
-\usepackage[utf8]{inputenc}
-\usepackage[inline]{enumitem}
-\setlist{noitemsep}
-
-\moderncvstyle{banking}
-\moderncvcolor{red}
-\usepackage[margin=1.666cm]{geometry}
-\recomputelengths
-
-\name{Pudim}{}
-\title{Software Developer}
-\address{London}{United Kingdom}
-\phone[mobile]{+44~7376~026007}
-\email{rogi@skylittlesystem.org}
-\social[github]{pudiva}
-\social[linkedin]{pudiva}
-%\extrainfo{\url{https://skylittlesystem.org}}
-%\photo[80pt][0.4pt]{pic}
-\quote{\href{https://en.wikipedia.org/wiki/Fast_inverse_square_root}{0x5f3759df}}
+\documentclass[a4paper,10pt]{pudivacv}
 
 \begin{document}
 \makecvtitle
-
-\newcommand{\x}[1]{\textbf{#1}}
-\newcommand{\y}[1]{\emph{#1}}
-\newcommand{\ghuser}{pudiva}
-\newcommand{\ghrepo}[1]{\url{https://github.com/#1}}
-\newcommand{\ghpulls}[1]{\ghrepo{#1/pulls?q=author\%3A\ghuser}}
-\newcommand{\ghcommits}[1]{\ghrepo{#1/commits?author=\ghuser}}
 
 \section{Summary}
 \cvitem{}{
@@ -197,28 +171,4 @@
 		\item \ghpulls{neo4jrb/activegraph}
 	\end{itemize}
 }
-
-\clearpage
-
-% Cover letter
-
-\recipient{GitHub Recruitment team}{}%{Company, Inc.\\123 somestreet\\some city}
-\date{April 26, 2021}
-\opening{Dear hubbers,}
-\closing{Best regards,}
-%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
-
-I hope you are doing well in this pandemic. I’m writing to submit my application to the “Software Engineer – App Core” position. I’m confident that I have the skills and that the role is what I’m looking for.
-
-I'm a passionate self-taught hacker with diverse experience. I learned my first programming language, C, when I was 12, and worked my way doing things from scratch, such as implementing complex mathematical algorithms for video games and developing a whole GNU/Linux distribution.
-
-Working as a full stack Ruby on Rails developer for 6 years, delivering excellent results and constantly improving myself, I had a rapid career progression. Two years ago, I moved from Brazil to the UK looking for new challenges.
-
-I believe that GitHub is a place where I’ll find interesting challenges, capable colleagues and a diverse and inclusive culture, where I’ll perform my best, do meaningful work and become an even better professional.
-
-Hope to hear from you soon!
-
-\makeletterclosing
-
 \end{document}
